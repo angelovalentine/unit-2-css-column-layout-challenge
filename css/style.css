@@ -96,4 +96,32 @@ a {
 		margin: 0 auto;
 	}
 
+	.primary,
+	.secondary {
+		display: inline-block;
+		width: 50%;
+	}
+
+	.primary {
+		float: left;
+		padding right: 1em;
+	}
+
+	.secondary {
+		float: left;
+		padding left: 1em;
+	}
+
+	}
+
+	/* Guil's Solution */
+	/* .col {
+		display: inline-block;
+		width: 50%;
+		margin-right: -4px;
+		padding-right: 1em;
+		padding-right: 1em;
+		vertical-align: top; */
+	}
+
 }
